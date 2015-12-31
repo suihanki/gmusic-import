@@ -152,7 +152,7 @@ def _add_tracks_to_library(matched_track_list):
 		try:
 			library_track_id = api.add_aa_track(track.keys()[0])
 			track_info_match = track.get(track.keys()[0])
-			library_track_list.append([track.keys()[0],track_info_match['name']])
+			library_track_list.append(library_track_id,track_info_match['name']])
 		except:
 			failed_count += 1
 
