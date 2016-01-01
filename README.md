@@ -13,7 +13,7 @@ A few notes:
 How it works:
 
 <ol>
-	<li>1) Point the script at a local csv file containing all the tracks you'd like to add to your library</li>
+	<li>Point the script at a local csv file containing all the tracks you'd like to add to your library (look at <a href="#">example.csv</a> for formatting</li>
 	<li>The script will first search the Google Play Music catalogue for each row in your csv, and attempt to find matches</li>
 	<li>Once it processes the entire csv, it will let you know how many matches it found, and ask if you'd like to import (if you like you can exit the script at this point and look at the matched_tracks.csv to see what it found)</li>
 	<li>Next it will add each track to your library by ID</li>
