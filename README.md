@@ -17,11 +17,10 @@ Heavily dependent on the awesome <a target="_blank" href="https://github.com/sim
 3. The script will first search the Google Play Music catalogue for each row in your csv, and attempt to find matches
 4. Once it processes the entire csv, it will let you know how many matches it found, and ask if you'd like to import (if you like you can exit the script at this point and look at the matched_tracks.csv to see what it found)
 5. Next it will add each track to your library by ID
-	<li>At the end you should have:<br/>
-		<strong>matched_tracks.csv</strong> with all your matches<br/>
-		<strong>no_matches.csv</strong> with songs we couldn't find (it's formatted perfectly so that you can retry import at a later date)<br/>
-		<strong>library_track_list.csv</strong> with a list of Google Play Music track IDs and track names that we imported (so you can delete what you uploaded if you make a mistake, I haven't built any deletion capabilities yet)<br/>
-	</li>
+6. At the end you should have:
+	<strong>matched_tracks.csv</strong> with all your matches<br/>
+	<strong>no_matches.csv</strong> with songs we couldn't find (it's formatted perfectly so that you can retry import at a later date)<br/>
+	<strong>library_track_list.csv</strong> with a list of Google Play Music track IDs and track names that we imported (so you can delete what you uploaded if you make a mistake, I haven't built any deletion capabilities yet)<br/>
 
 ## A few gotchas:
 
